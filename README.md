@@ -1,0 +1,2 @@
+# quicksort
+Quick sort algorythm
