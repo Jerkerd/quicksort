@@ -19,7 +19,7 @@ func (e *myError) Error() string {
 
 func main() {
 	pls := time.Now()
-	var b = 10 // capacity
+	var b = 20 // capacity
 	var a = make([]int, 0, b)
 	c := make(chan int)
 	for i := 0; i < b; i++ {
